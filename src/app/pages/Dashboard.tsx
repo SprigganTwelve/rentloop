@@ -1,5 +1,10 @@
 const Dashboard = () => {
-     return <div>Dashboard</div>;
+     return (
+          <div>
+               <h2 className="text-xl font-bold text-foreground">Portfolio Overview</h2>
+               Dashboard
+          </div>
+     );
 };
 
 export default Dashboard;
